@@ -8,9 +8,8 @@ provenance is transparent and the results feed straight into the
 
 ## Demo
  
-A short screen recording of the annotation workflow:
-
-<video src="https://github.com/johannesSX/PAVIAn/assets/12345678/abcd-....mp4" controls muted></video>
+▶️ [Watch a short screen recording of the annotation workflow](assets/demo.mp4)
+(opens in GitHub's file viewer).
 
 ## Components
 
