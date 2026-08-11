@@ -10,8 +10,7 @@ provenance is transparent and the results feed straight into the
  
 A short screen recording of the annotation workflow:
 
-<video src="https://github.com/johannesSX/PAVIAn/assets/demo.mp4" controls muted></video>
-
+<video src="https://github.com/johannesSX/PAVIAn/assets/12345678/abcd-....mp4" controls muted></video>
 
 ## Components
 
