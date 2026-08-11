@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "type": "entity",
+            "selected": "Placeholder A"
+        },
+        {
+            "box_title": "focal or global",
+            "type": "radio",
+            "selected": [
+                "focal"
+            ]
+        },
+        {
+            "box_title": "therapy recommendation",
+            "type": "checkbox",
+            "selected": [
+                "A",
+                "B",
+                "C"
+            ]
+        }
+    ],
+    [
+        {
+            "type": "entity",
+            "selected": "Placeholder C"
+        },
+        {
+            "box_title": "focal or global",
+            "type": "radio",
+            "selected": [
+                "global"
+            ]
+        },
+        {
+            "box_title": "therapy recommendation",
+            "type": "checkbox",
+            "selected": [
+                "C"
+            ]
+        }
+    ]
+]

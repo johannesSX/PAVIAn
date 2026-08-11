@@ -1,0 +1,42 @@
+{
+    "lst_entity": {
+        "lst_key": [
+            "Cavernoma",
+            "Post Resection Cavity",
+            "FCD"
+        ],
+        "selected": []
+    },
+    "lst_box": [
+        {
+            "box_title": "focal or global",
+            "type": "radio",
+            "lst_key": [
+                "focal",
+                "global"
+            ],
+            "selected": []
+        },
+        {
+            "box_title": "therapy recommendation",
+            "type": "checkbox",
+            "lst_key": [
+                "A",
+                "B",
+                "C"
+            ],
+            "selected": []
+        },
+        {
+            "box_title": "placeholder X",
+            "type": "checkbox",
+            "lst_key": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "selected": []
+        }
+    ]
+}

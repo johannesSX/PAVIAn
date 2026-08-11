@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>317</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BIDS Annotation Tool</string>
+  </property>
+  <layout class="QVBoxLayout" name="mainVerticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="contentVerticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="mainHorizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="subjectDirVerticalLayout">
+         <item>
+          <widget class="QLabel" name="labelSubjectDirs">
+           <property name="text">
+            <string>BIDS Directories (anat)</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listWidgetSubjectDirs"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelArrow1">
+         <property name="font">
+          <font>
+           <pointsize>30</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>→</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="niftiFilesVerticalLayout">
+         <item>
+          <widget class="QLabel" name="labelNiftiFiles">
+           <property name="text">
+            <string>Image Files (.nii/.nii.gz)</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listWidgetNiftiFiles"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelArrow2">
+         <property name="font">
+          <font>
+           <pointsize>30</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>→</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="annotationButtonsLayout">
+         <item>
+          <widget class="QPushButton" name="pushButtonAnnotate">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>A
+n
+n
+o
+t
+a
+t
+e</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButtonAIAnnotate">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>A
+I
+
+A
+n
+n
+o
+t
+a
+t
+e</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="slicerPathHorizontalLayout">
+     <item>
+      <widget class="QLabel" name="labelSlicerPath">
+       <property name="text">
+        <string>Path to Slicer:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditSlicerPath"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <action name="actionInfo">
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
